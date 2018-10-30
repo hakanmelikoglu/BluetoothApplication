@@ -1,6 +1,5 @@
+ ![alt text](https://raw.githubusercontent.com/hakanmelikoglu/BluetoothApplication/master/Capture.PNG)
 
-        BluetoothApplication/Capture.PNG
-      
 # BluetoothApplication
 This is a Bluetooth 2.0 Android Application.
 I built it on Bluetooth 2.0 and This is one of my first android apps
