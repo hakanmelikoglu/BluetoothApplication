@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.hakanmelikoglu.bluecon.bconnect.MainActivity"
+    tools:showIn="@layout/app_bar_main"
+    android:id="@+id/sample_content_fragment"
+    android:background="#ffffff">
+
+
+    <ImageView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:id="@+id/imageView2"
+        android:focusable="false"
+        android:scaleType="fitCenter"
+        android:src="@mipmap/ic_launcher"
+        android:contentDescription="@string/todo" />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="@string/first_text"
+        android:id="@+id/textView15"
+        android:textColor="#ffffff"
+        android:textStyle="bold"
+        android:background="#b8737373"
+        android:gravity="center|center_horizontal"
+        android:textSize="40sp" />
+
+
+</FrameLayout>

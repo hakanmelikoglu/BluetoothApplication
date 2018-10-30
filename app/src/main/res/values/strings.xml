@@ -1,0 +1,112 @@
+<resources xmlns:xliff="http://schemas.android.com/tools">
+    <string name="app_name">Bluetooth Connection</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Setting</string>
+
+    <!--  BluetoothChat -->
+    <string name="not_connected">You are not connected to a device</string>
+    <string name="bt_not_enabled_leaving">Bluetooth was not enabled. Leaving Bluetooth Chat.</string>
+
+    <!--  DeviceListActivity -->
+    <string name="scanning">scanning for devices...</string>
+    <string name="select_device">select a device to connect</string>
+    <string name="none_paired">No devices have been paired</string>
+    <string name="none_found">No devices found</string>
+    <string name="button_scan">Scan for devices</string>
+
+    <!-- Options Menu -->
+    <string name="secure_connect">Connect a device - Secure</string>
+    <string name="insecure_connect">Connect a device - Insecure</string>
+    <string name="discoverable">Make discoverable</string>
+
+    <!--Navigation Drawer-->
+    <string name="gamepad">Gamepad Mode</string>
+    <string name="keypad">Keypad Mode</string>
+    <string name="customize">Customize</string>
+    <string name="communicate">Communicate</string>
+    <string name="feedback">Feedback</string>
+    <string name="send">Send</string>
+    <string name="share">Share</string>
+    <string name="title_connected_to" translatable="false">Bağlı cihaz: <xliff:g id="device_name">%1$s</xliff:g></string>
+    <string name="title_connecting">connecting...</string>
+    <string name="title_not_connected">not connected</string>
+    <string name="title_other_devices">Other Available Devices</string>
+    <string name="title_paired_devices">Paired Devices</string>
+    <string name="tool">Tools</string>
+
+    <string name="title_con_to">Connecting to</string>
+    <string name="bt_click">CLICK BLUETOOTH ICON\nFOR CONNECTION</string>
+    <string name="homePager">Connect</string>
+
+    <!--Numbers-->
+    <string name="button_one">One</string>
+    <string name="button_twwo">Two</string>
+    <string name="button_three">Three</string>
+    <string name="button_four">Four</string>
+    <string name="button_five">Five</string>
+    <string name="button_six">Six</string>
+    <string name="button_seven">Seven</string>
+    <string name="button_eihgt">Eight</string>
+    <string name="button_nine">Nine</string>
+
+    <!--Others-->
+    <string name="sent_data">SENT DATA:</string>
+    <string name="customize_menu">Customize</string>
+    <string name="baglandi_yazi">CONNECT\nCLICK ICON FOR CANCEL</string>
+    <string name="key_gir">Key Value</string>
+    <string name="string_gir">String Value</string>
+    <string name="keypad_custom_string">Set Buttons</string>
+    <string name="kaydet">Ok</string>
+    <string name="iptal">Cancel</string>
+    <string name="keypad_mode">Keypad Mode</string>
+    <string name="bt_connect">Bluetooth Connect</string>
+    <string name="ilk_fragment">CONNECT\nA DEVICE</string>
+    <string name="connect_true">CONNECTED</string>
+    <string name="connect_false">NOT CONNECTED</string>
+    <string name="duzenle_text">Edit</string>
+    <string name="kaydedildi">Datas saved</string>
+    <string name="keypad_first">Long click for edit to buttons</string>
+    <string name="connection_failll">Unable to connect device</string>
+    <string name="uuid_degistir">CHANGE UUID</string>
+    <string name="uuid_name">Edit UUID</string>
+    <string name="uuid_save">Saved UUID</string>
+    <string name="kaydett">Save</string>
+    <string name="first_text">BLUETOOTH\nCONNECTION\nAPP</string>
+
+
+    <string name="title_activity_tamekran">GamePad</string>
+    <string name="dummy_button" translatable="false">Dummy Button</string>
+    <string name="menuye_tikla">CLICK MENU \nFOR SELECT DEVICE</string>
+    <string name="tamam">Ok</string>
+    <string name="chat">Chat</string>
+    <string name="gonder">Send</string>
+    <string name="benn">Me</string>
+    <string name="baglandi">Connected to</string>
+
+    <string name="classic_gamepad" translatable="false">CLASSIC GAMEPAD</string>
+    <string name="scroll_gamepad" translatable="false">SCROLL GAMEPAD</string>
+
+    <string name="title_activity_scroll_game_screen" translatable="false">ScrollGameScreenActivity</string>
+    <string name="dummy_content" translatable="false">DUMMY\nCONTENT</string>
+    <string name="title_activity_login" translatable="false">Sign in</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email" translatable="false">Email</string>
+    <string name="prompt_password" translatable="false">Password (optional)</string>
+    <string name="action_sign_in" translatable="false">Sign in or register</string>
+    <string name="action_sign_in_short" translatable="false">Sign in</string>
+    <string name="error_invalid_email" translatable="false">This email address is invalid</string>
+    <string name="error_invalid_password" translatable="false">This password is too short</string>
+    <string name="error_incorrect_password" translatable="false">This password is incorrect</string>
+    <string name="error_field_required" translatable="false">This field is required</string>
+    <string name="permission_rationale" translatable="false">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+
+    <string name="giris_yap" translatable="false">Giriş Yap</string>
+    <string name="todo">TODO</string>
+
+</resources>

@@ -1,0 +1,90 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="match_parent"
+    tools:context="com.hakanmelikoglu.bluecon.bconnect.KeypadDuzenlePop"
+    android:background="#c6353535">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <TableLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:background="@drawable/customback"
+        android:layout_gravity="center">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="@string/key_gir"
+                android:id="@+id/textView17"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentStart="true"
+                android:layout_toStartOf="@+id/editText4"
+                android:layout_alignEnd="@+id/button19"
+                android:padding="5dp"
+                android:layout_margin="4dp"
+                android:textColor="#2c2c2c" />
+
+            <EditText
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/editText3"
+                android:background="@drawable/customback"
+                android:layout_alignTop="@+id/textView17"
+                android:layout_alignParentEnd="true"
+                android:hint="@string/key_gir"
+                android:layout_margin="5dp"
+                android:padding="5dp" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="@string/string_gir"
+                android:id="@+id/textView18"
+                android:layout_below="@+id/textView17"
+                android:layout_alignParentStart="true"
+                android:layout_alignEnd="@+id/textView17"
+                android:padding="5dp"
+                android:layout_margin="4dp"
+                android:textColor="#2c2c2c" />
+
+            <EditText
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/editText4"
+                android:background="@drawable/customback"
+                android:layout_below="@+id/textView17"
+                android:layout_alignStart="@+id/editText3"
+                android:layout_alignParentEnd="false"
+                android:layout_margin="5dp"
+                android:padding="5dp"
+                android:hint="@string/string_gir" />
+        </TableRow>
+
+        <Button
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="99dp"
+            android:layout_height="wrap_content"
+            android:text="@string/kaydet"
+            android:id="@+id/button19"
+            android:background="@drawable/customback"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true"
+            android:layout_margin="4dp"
+            android:textColor="#2c2c2c"
+            android:nestedScrollingEnabled="false" />
+    </TableLayout>
+</FrameLayout>

@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2014 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/scrollView4"
+        android:background="@color/beyaz">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/title_paired_devices"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="8dp"
+                android:text="@string/title_paired_devices"
+                android:visibility="gone"
+                android:background="@drawable/customback2"
+                android:textSize="20dp"
+                android:typeface="monospace"
+                android:textColor="#4e4e4e" />
+
+            <ListView
+                android:id="@+id/paired_devices"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:stackFromBottom="false"
+                android:layout_weight="1"
+                android:smoothScrollbar="false"
+                android:layout_margin="5dp" />
+
+            <TextView
+                android:id="@+id/title_new_devices"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/customback2"
+                android:paddingLeft="5dp"
+                android:text="@string/title_other_devices"
+                android:textColor="#4e4e4e"
+                android:visibility="gone"
+                android:textSize="20dp"
+                android:typeface="monospace" />
+
+            <ListView
+                android:id="@+id/new_devices"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_weight="2"
+                android:stackFromBottom="false"
+                android:smoothScrollbar="false" />
+
+            <Button
+                android:id="@+id/button_scan"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:text="@string/button_scan"
+                android:background="@drawable/btn_click"
+                android:textColor="@color/material_sari6"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginBottom="10dp"
+                android:textColorLink="?attr/colorSwitchThumbNormal" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

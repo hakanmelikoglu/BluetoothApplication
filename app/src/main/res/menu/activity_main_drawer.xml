@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/homePage"
+            android:icon="@drawable/ic_bluetooth_searching_black_48dp"
+            android:title="@string/homePager" />
+        <item
+            android:id="@+id/gamePadPage"
+            android:icon="@drawable/ic_videogame_asset_black_48dp"
+            android:title="@string/gamepad" />
+        <item
+            android:id="@+id/keyPadPage"
+            android:icon="@drawable/ic_view_comfy_black_48dp"
+            android:title="@string/keypad" />
+
+        <item
+            android:id="@+id/chatPage"
+            android:icon="@drawable/ic_chat_bubble_outline_black_48dp"
+            android:title="@string/chat" />
+        <item
+            android:id="@+id/customPadPage"
+            android:icon="@drawable/ic_dashboard_black_48dp"
+            android:title="@string/customize" />
+    </group>
+
+    <item android:title="@string/communicate">
+        <menu>
+            <item
+                android:id="@+id/person_id"
+                android:icon="@drawable/ic_person_add_black_48dp"
+                android:title="@string/giris_yap"/>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="@string/share" />
+            <item
+                android:id="@+id/nav_send"
+                android:icon="@drawable/ic_menu_send"
+                android:title="@string/send" />
+        </menu>
+    </item>
+
+</menu>
